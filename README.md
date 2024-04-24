@@ -7,7 +7,7 @@ A Java-based space invaders game, Fully functional and showcasing specific use o
 
 In this project, I have applied several Object-Oriented (OO) design patterns and principles to promote code reusability, extensibility, and maintainability. The following techniques have been implemented:
 
--  3Factory Pattern: The GameObjectFactory class is responsible for creating various game objects, such as Invaders, Players, and Bullets. This pattern centralizes object creation and allows for the flexible introduction of new object types without modifying existing code.
+- Factory Pattern: The GameObjectFactory class is responsible for creating various game objects, such as Invaders, Players, and Bullets. This pattern centralizes object creation and allows for the flexible introduction of new object types without modifying existing code.
 
 - Chain of Responsibility Pattern: The CollisionHandler class hierarchy handles collision detection and resolution. Each CollisionHandler subclass in the chain determines whether to process a collision or pass it along to the next handler in the chain. This design pattern promotes decoupling and enables easy extension of collision handling capabilities.
 
